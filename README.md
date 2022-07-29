@@ -2,7 +2,7 @@
 
 This repository contains the source code of the paper:
 
-- Towards the Evaluation of Recommender Systems with Impressions. Fernando B. Pérez Maurera, Maurizio Ferrari Dacrema, and Paolo Cremonesi.  RecSys 2022. DOI: [https://doi.org/10.1145/3523227.3551483](https://doi.org/10.1145/3523227.3551483).
+- Towards the Evaluation of Recommender Systems with Impressions. Fernando B. Pérez Maurera, Maurizio Ferrari Dacrema, and Paolo Cremonesi.  RecSys 2022. DOI: [10.1145/3523227.3551483](https://doi.org/10.1145/3523227.3551483).
   - [Paper Published Version (ACM DL)](https://doi.org/10.1145/3523227.3551483),
   - [Github](https://github.com/recsyspolimi/recsys-2022-evaluation-of-recsys-with-impressions)
   - If you use our work, please cite it. You can click on the Cite this repository button or use the following bibtex: 
