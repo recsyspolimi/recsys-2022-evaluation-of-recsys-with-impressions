@@ -1,0 +1,50 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on 23/04/2019
+
+@author: Anonymous
+"""
+
+from Data_manager.Movielens.Movielens100KReader import Movielens100KReader
+from Data_manager.Movielens.Movielens1MReader import Movielens1MReader
+from Data_manager.Movielens.Movielens10MReader import Movielens10MReader
+from Data_manager.Movielens.Movielens20MReader import Movielens20MReader
+from Data_manager.Movielens.Movielens25MReader import Movielens25MReader
+from Data_manager.Movielens.MovielensHetrec2011Reader import MovielensHetrec2011Reader
+from Data_manager.TheMoviesDataset.TheMoviesDatasetReader import TheMoviesDatasetReader
+from Data_manager.MultifacetedMovieTrailerFeature.MultifacetedMovieTrailerFeatureReader import MultifacetedMovieTrailerFeatureReader
+
+from Data_manager.JesterJokes.JesterJokesReader import JesterJokesReader
+from Data_manager.Brightkite.BrightkiteReader import BrightkiteReader
+from Data_manager.ContentWiseImpressions.ContentWiseImpressionsReader import ContentWiseImpressionsReader
+from Data_manager.Epinions.EpinionsReader import EpinionsReader
+from Data_manager.NetflixPrize.NetflixPrizeReader import NetflixPrizeReader
+from Data_manager.Pinterest.PinterestReader import PinterestReader
+from Data_manager.ThirtyMusic.ThirtyMusicReader import ThirtyMusicReader
+from Data_manager.Yelp.YelpReader import YelpReader
+from Data_manager.BookCrossing.BookCrossingReader import BookCrossingReader
+
+from Data_manager.AmazonReviewData.AmazonElectronicsReader import AmazonElectronicsReader
+from Data_manager.AmazonReviewData.AmazonBooksReader import AmazonBooksReader
+from Data_manager.AmazonReviewData.AmazonAutomotiveReader import AmazonAutomotiveReader
+from Data_manager.AmazonReviewData.AmazonMoviesTVReader import AmazonMoviesTVReader
+from Data_manager.AmazonReviewData.AmazonMusicReader import AmazonMusicReader
+from Data_manager.AmazonReviewData.AmazonMusicalInstrumentsReader import AmazonMusicalInstrumentsReader
+
+from Data_manager.SpotifyChallenge2018.SpotifyChallenge2018Reader import SpotifyChallenge2018Reader
+from Data_manager.XingChallenge2016.XingChallenge2016Reader import XingChallenge2016Reader
+from Data_manager.XingChallenge2017.XingChallenge2017Reader import XingChallenge2017Reader
+
+from Data_manager.TVAudience.TVAudienceReader import TVAudienceReader
+from Data_manager.LastFMHetrec2011.LastFMHetrec2011Reader import LastFMHetrec2011Reader
+from Data_manager.DeliciousHetrec2011.DeliciousHetrec2011Reader import DeliciousHetrec2011Reader
+from Data_manager.CiteULike.CiteULikeReader import CiteULike_aReader, CiteULike_tReader
+# from Data_manager.SpotifySkipPrediction.SpotifySkipPredictionReader import SpotifySkipPredictionReader
+from Data_manager.MillionSongDatasetTaste.MillionSongDatasetTasteReader import MillionSongDatasetTasteReader
+
+from Data_manager.Frappe.FrappeReader import FrappeReader
+from Data_manager.FilmTrust.FilmTrustReader import FilmTrustReader
+from Data_manager.Gowalla.GowallaReader import GowallaReader
+from Data_manager.Ciao.CiaoReader import CiaoReader
+from Data_manager.Tafeng.TafengReader import TafengReader

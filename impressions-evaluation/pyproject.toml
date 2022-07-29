@@ -1,0 +1,57 @@
+[tool.mypy]
+python_version = 3.9
+ignore_missing_imports = true
+
+[email.gmail]
+path_credential_json = "./credentials.json"
+path_token_json = "./token.json"
+
+[dask]
+use_processes = true
+dashboard_address = ":8787"
+scheduler_port = 8786
+num_workers = 2
+threads_per_worker = 1
+memory_limit = 0
+
+[logs]
+dir_name = "logs"
+file_name = "impressions_datasets.log"
+formatter = "%(process)d|%(asctime)s|%(levelname)s|%(module)s|%(funcName)s|%(lineno)d|%(message)s"
+
+[tool.poetry]
+name = "impressions_datasets"
+version = "1.0.0"
+description = ""
+authors = [
+    "Anonymous"
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "~3.9"
+typed-argument-parser = "^1.7.1"
+recsys-framework-public = { path = "../RecSysFramework_public/", develop = true }  # Use this when publishing the repo.
+recsys-framework-extensions = { path = "../recsys-framework-extensions/", develop = true }  # Use this when publishing the repo.
+plotly = "^5.5.0"
+datashader = "^0.13.0"
+kaleido = "=0.2.1"
+statsmodels = "^0.13.2"
+jupyter = "^1.0.0"
+jupyterlab = "^3.3.0"
+cattrs = "^22.1.0"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.910"
+black = "^21.11b1"
+pytest = "^6.2.4"
+memory-profiler = "^0.58.0"
+types-toml = "^0.10.0"
+pylint = "^2.12.2"
+Faker = "^13.3.4"
+mock = "^4.0.3"
+types-mock = "^4.0.13"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
